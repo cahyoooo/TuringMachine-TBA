@@ -1,0 +1,41 @@
+h2,
+h6 {
+  text-align: center;
+}
+
+.center {
+  text-align: left;
+}
+
+.resize {
+  width: 80px;
+  height: 50px;
+  padding: 10px;
+}
+
+.machine-wrapper {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+
+/* TM element */
+.machine-wrapper > * {
+  padding: 15px;
+  max-width: 700px;
+}
+
+.moving {
+  color: red;
+  font-weight: bolder;
+}
+
+.space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
